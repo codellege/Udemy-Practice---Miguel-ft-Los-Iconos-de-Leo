@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('../fonts/UdemyIcons/UdemyIcons.css');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.udemy-icon {
+    background: url(/logo-coral.svg);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 65px;
+    width: 126px;
+}
+
+nav {
+    background: #fff;
+    box-shadow: 0 0 8px 1px #00000059;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+    color: #555b64;
+    font-size: .8em;
+}
+
+nav ul li a {
+    color: #A1A7B3;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+nav ul li .menu-icon {
+    color: #A3A7B3;
+    font-size: 1em;
+    padding: 10px;
+}
+
+nav ul li .cat-text {
+    color: #555b64;
+    font-size: 1em;
+}
+
+nav li.brand {
+    display: flex;
+}
+
+.u-search {
+    background: #F2F3F5;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 422px;
+    height: 45px;
+    border-radius: 3px;
+}
+
+.u-search input {
+    padding: 10px;
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+.u-search a {
+    min-height: 45px;
+    min-width: 45px;
+    line-height: 45px;
+    font-size: 1.3em;
+    text-align: center;
+    color: #EC5252;
+
+    border-radius: 0 3px 3px 0;
+
+}
+
+.u-search a:hover {
+    background: #EC5252;
+    color: white;
+}
+
