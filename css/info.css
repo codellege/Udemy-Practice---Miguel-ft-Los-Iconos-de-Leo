@@ -1,0 +1,132 @@
+header.info {
+    background: #29303B;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+header.info .course-info > * {
+    padding: 5px 0;
+}
+
+header.info h1,
+header.info h2 {
+    margin: 0;
+    padding: 0;
+}
+
+header.info h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.info .options-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transform: translate(-200px, -70px);
+}
+
+.info .options-info > .udi {
+    font-size: 2em;
+    line-height: 2em;
+    display: flex;
+    vertical-align: middle;
+}
+
+.info .options-info > .udi:nth-of-type(2){
+    
+    color: transparent;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #ffffff;
+}
+
+.info .options-info > .udi span {
+    color: #ffffff;
+    -webkit-text-stroke-width: 0px;
+    font-size: .5em;
+    padding: 0 10px;
+}
+
+.info .course-info {
+    max-width: 600px;
+}
+
+.info .stats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: .9em;
+}
+
+.info .stats > * {
+    margin-right: 15px;
+}
+
+.info .stats .badge {
+    position: relative;
+    background: #F4C150;
+    border-radius: 3px;
+    color: #29303B;
+    padding: 0px 5px;
+    margin-right: 25px;
+    font-size: .6em;
+    line-height: 18px;
+    font-weight: bold;
+    height: 18px;
+    
+    z-index: 1;
+}
+
+.info .stats .badge::after {
+    
+    position: absolute;
+    content: '';
+    background: #F4C150;
+    height: 14px;
+    width: 14px;
+
+    border-radius: 3px;
+    top: 2px;
+    right: -6px;
+    transform: rotate(45deg);
+
+    z-index: -1;
+
+}
+
+.info .rating {
+    display: flex;
+    align-items: center;
+}
+
+.info .rating > * {
+    padding: 3px;
+}
+
+.info .rating > div {
+    color: #F4C150;
+}
+
+.info .about > * {
+    margin-right: 15px;
+    font-size: .9em;
+}
+
+.info .lang > * {
+    margin-right: 15px;
+    font-size: .9em;
+}
+
+.info .lang a span {
+    margin-left: 5px;
+}
+
+.info .lang a:nth-of-type(2) span:nth-of-type(2) {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,29 @@
+
+.path {
+    z-index: 1;
+    
+    background:#F7F8FA;
+    display: flex;
+    justify-content: center;
+}
+.path ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    width: 58%;
+    height: 45px;
+}
+
+.path ul li {
+    font-size: .8em;
+    padding: 0 10px;
+    color: #686F7A;
+}
+
+.path ul li.root {
+    font-weight: bold;
+}

@@ -1,96 +1,142 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('../fonts/UdemyIcons/UdemyIcons.css');
 
-* {
-    font-family: 'Open Sans', sans-serif;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.udemy-icon {
+.main .udemy-icon {
     background: url(/logo-coral.svg);
     background-size: 85%;
     background-repeat: no-repeat;
     background-position: center;
-    
     height: 65px;
     width: 126px;
 }
 
-nav {
+.main {
+    position: relative;
     background: #fff;
-    box-shadow: 0 0 8px 1px #00000059;
+    box-shadow: 0 0 2px 3px #dddddd;
+    z-index: 2;
 }
-nav ul {
-    margin: 0;
+
+.main ul {
+    margin: auto;
     padding: 0;
-    padding: 0 20px;
+    padding: 10px 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-nav ul li {
+
+.main ul li {
+    
+    margin: 0 3px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     list-style-type: none;
     color: #555b64;
     font-size: .8em;
+    padding: 0px 13px;
+    border-radius: 3px;
+    border: 1px solid #FFFFFFFF;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .3s;
+
 }
 
-nav ul li a {
+.main ul li.nav-link:hover {
+    background: #F3F3F3;
+    border: 1px solid #DEDFE0;
+}
+
+.main ul li a {
     color: #A1A7B3;
     font-size: 20px;
     line-height: 20px;
 }
 
-nav ul li .menu-icon {
+.main ul li .menu-icon {
     color: #A3A7B3;
     font-size: 1em;
     padding: 10px;
 }
 
-nav ul li .cat-text {
+.main ul li .cat-text {
     color: #555b64;
     font-size: 1em;
 }
 
-nav li.brand {
+.main li.brand {
     display: flex;
 }
 
-.u-search {
+.main li.cart {
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.main li.cart a{
+   color: #555b64;
+}
+
+.main .u-search {
     background: #F2F3F5;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    width: 422px;
     height: 45px;
+    width: 30vw;
+    min-width: 365px;
     border-radius: 3px;
+    border: 1px solid #FFFFFFFF;
 }
 
-.u-search input {
+.main .u-search input {
     padding: 10px;
     border: none;
     background: none;
     width: 100%;
 }
 
-.u-search a {
+.main .u-search:focus-within {
+    border: 1px solid #DEDFE0;
+}
+
+.main .u-search a {
     min-height: 45px;
     min-width: 45px;
     line-height: 45px;
     font-size: 1.3em;
     text-align: center;
     color: #EC5252;
-
+    cursor: pointer;
     border-radius: 0 3px 3px 0;
-
+    transition: .3s;
 }
 
-.u-search a:hover {
+.main .u-search a:hover {
     background: #EC5252;
     color: white;
 }
 
+.main .btn {
+    font-size: .95em;
+    font-weight: bold;
+}
+
+.main .login {
+    color: #686F7A;
+    border: 1px solid #686F7A;
+}
+
+.main .sign-up {
+    background: #EC5252;
+    border: 1px solid #EC5252;
+    color: #FFFFFF;
+}
+
+.main .sign-up:hover {
+    background: #992337;
+    border: 1px solid #992337;
+    color: #FFFFFF;
+}
