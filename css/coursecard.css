@@ -1,8 +1,9 @@
 .stack {
     display: flex;
     width: 59%;
+    flex-direction: column;
     align-self: center;
-    justify-content: flex-end;
+    align-items: flex-end;
     position: absolute;
     top: 65px;
 }
@@ -20,8 +21,9 @@
     color: #505763;
     padding: 5px;
 
-
     border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .course-card .video {
@@ -31,13 +33,28 @@
     height: 198px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     padding: 10px;
     box-sizing: border-box;
     color: white;
     font-weight: 600;
+    cursor: pointer;
+}
 
+.course-card .play {
+    background: url(/img/play.svg);
+    height: 100%;
+    width: 100%;
+    transform: scale(.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+
+.course-card .video:hover .play {
+    transform: scale(.8);
 }
 
 .course-card .meta {
@@ -150,4 +167,27 @@
 .course-card .udi-share {
     text-align: center;
     color: #007791;
+}
+
+.note {
+    width: 354px;
+    border: 1px solid #f0f0f0;
+    color: #505763;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.note h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.note a {
+    font-size: 16px;
+    color: #007791;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
 }
