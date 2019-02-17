@@ -1,0 +1,153 @@
+.stack {
+    display: flex;
+    width: 59%;
+    align-self: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 65px;
+}
+
+.course-card {
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 354px;
+    background: #FFFFFF;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+    color: #505763;
+    padding: 5px;
+
+
+    border: 1px solid #f0f0f0;
+}
+
+.course-card .video {
+    background: url(/img/course-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 198px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+
+}
+
+.course-card .meta {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course-card .meta>* {
+    margin-top: 10px;
+}
+
+
+.course-card .meta h2 {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.course-card .meta .add {
+    width: 100%;
+    background: #EC5252;
+
+    border: 1px solid #EC5252;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.course-card .meta .add:hover {
+    background: #992337;
+    border: 1px solid #992337;
+}
+
+.course-card .meta .buy {
+    width: 100%;
+    background: white;
+    color: #686F7A;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid #686F7A;
+    transition: .3s;
+}
+
+.course-card .meta .buy:hover {
+    color: #464646;
+}
+
+.course-card .meta .notice {
+    text-align: center;
+    font-size: 12px;
+}
+
+.course-card .meta h3 {
+    font-size: 15px;
+}
+
+.course-card ul {
+    padding: 0;
+    margin: 0;
+}
+
+.course-card ul li {
+    padding-bottom: 10px;
+    margin: 0;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.course-card .meta hr {
+    margin: 40px 0;
+}
+
+.course-card .input-coupon {
+    background: white;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course-card .input-coupon input {
+    border: none;
+    padding: 7px;
+
+}
+
+.course-card .input-coupon a {
+    background: #EC5252;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.course-card .input-coupon a:hover {
+    background: #992337;
+}
+
+.course-card .udi-share {
+    text-align: center;
+    color: #007791;
+}

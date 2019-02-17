@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('/fonts/OpenSans/OpenSans.css');
 @import url('../fonts/UdemyIcons/UdemyIcons.css');
 
 * {
@@ -8,4 +8,9 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+hr {
+    width: 100%;
+    opacity: .1;
 }

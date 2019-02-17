@@ -12,9 +12,10 @@
     list-style-type: none;
     align-items: center;
     justify-content: flex-start;
+    align-self: right;
     margin: 0;
     padding: 0;
-    width: 58%;
+    width: 59%;
     height: 45px;
 }
 
