@@ -1,0 +1,92 @@
+.con-table {
+    display: flex;
+    justify-content: center;
+}
+
+.con-table ul {
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-table ul li {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 3px 0;
+
+    border-radius: 3px;
+    border: 1px solid #E8E9EB;
+    background: #F9F9F9;
+}
+
+.con-table li.header {
+    border: none;
+    background: transparent;
+    margin-top: 30px;
+}
+
+.con-table li.header h2 {
+    font-size: 22px;
+    color: #29303B;
+}
+
+.con-table ul li.header div a {
+    font-size: 15px;
+    color: #40464F;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.con-table ul li.header div a:nth-child(1) {
+    font-size: 15px;
+    color: #2E7791;
+    margin-right: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.con-table ul li div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+}
+
+.con-table ul li div:nth-child(1) a {
+    color: #1C7791;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.con-table ul li h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #505763;
+    font-weight: 600;
+}
+
+.con-table ul li div:nth-child(2) {
+    display: flex;
+
+}
+
+.con-table ul li div:nth-child(2) a {
+    font-size: 15px;
+    color: #40464F;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.con-table li.rest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E8E9EB;
+} 

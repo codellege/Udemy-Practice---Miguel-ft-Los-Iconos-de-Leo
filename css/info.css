@@ -1,5 +1,9 @@
 header.info {
-    background: #29303B;
+
+    background: linear-gradient(275deg, #29303bee, #29303B), url(/img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
     color: white;

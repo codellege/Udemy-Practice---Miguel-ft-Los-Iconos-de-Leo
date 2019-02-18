@@ -1,0 +1,22 @@
+.reqs {
+    display: flex;
+    justify-content: center;
+}
+
+.reqs ul {
+    width: 59%;
+}
+
+.reqs ul li {
+    width: 65%;
+    list-style: disc inside;
+    box-sizing: content-box;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.reqs ul h2 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #29303B;
+}

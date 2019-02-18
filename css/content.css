@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content>div {
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content div .square {
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 65%;
+    border-radius: 3px;
+    background: #F9F9F9;
+    border: 1px solid #DEDFE0;
+}
+
+.content div h2 {
+    margin-top: 0;
+    color: #29303B;
+    font-size: 20px;
+}
+
+.content div ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.content div ul .column {
+    width: 100%;
+}
+
+.content div ul li {
+    padding: 5px 0;
+    color: #A1A7B3;
+    display: flex;
+    align-items: baseline;
+}
+
+.content div ul li a:nth-child(2) {
+    padding: 5px 15px;
+    color: #29303B;
+    font-size: 15px;
+}
