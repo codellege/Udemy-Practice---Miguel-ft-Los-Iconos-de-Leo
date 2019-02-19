@@ -17,11 +17,11 @@ Por ejemplo:
 
 ## Creditos
 
-Leo (assets)
-Miguel
+*Leo (assets)
+*Miguel
 
 ## Supervisa
-JC
+*JC
 
 
 ## Falta
