@@ -11,3 +11,11 @@ Por ejemplo:
 ```html
 <span class="udi udi-explore"></span>
 ```
+
+#Credits
+
+Leo (assets)
+Miguel
+
+#Supervisa
+JC
