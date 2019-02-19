@@ -12,10 +12,10 @@ Por ejemplo:
 <span class="udi udi-explore"></span>
 ```
 
-#Credits
+##Credits
 
 Leo (assets)
 Miguel
 
-#Supervisa
+##Supervisa
 JC
