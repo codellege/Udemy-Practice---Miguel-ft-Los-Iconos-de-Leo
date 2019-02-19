@@ -15,7 +15,7 @@
     align-self: right;
     margin: 0;
     padding: 0;
-    width: 59%;
+    width: 1080px;
     height: 45px;
 }
 
@@ -23,6 +23,14 @@
     font-size: .8em;
     padding: 0 10px;
     color: #686F7A;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.path ul li.link:hover {
+    background: #E8E9EB;
+    cursor: pointer;
 }
 
 .path ul li.root {

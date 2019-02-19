@@ -1,6 +1,6 @@
 .stack {
     display: flex;
-    width: 59%;
+    width: 1080px;
     flex-direction: column;
     align-self: center;
     align-items: flex-end;

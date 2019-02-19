@@ -14,7 +14,7 @@ header.info {
 }
 
 header.info .course-info {
-    width: 59%;
+    width: 1080px;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -33,7 +33,7 @@ header.info .course-info>* {
     align-items: center;
     justify-content: flex-end;
     align-self: center;
-    width: 59%;
+    width: 1080px;
 }
 
 

@@ -4,7 +4,7 @@
 }
 
 .con-table ul {
-    width: 59%;
+    width: 1080px;
     display: flex;
     flex-direction: column;
 }
