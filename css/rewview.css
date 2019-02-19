@@ -1,0 +1,111 @@
+.review {
+    display: flex;
+    justify-content: center;
+}
+
+.review-content {
+    width: 1080px;
+
+}
+
+.review-content>* {
+    width: 65%;
+}
+
+.review-content h2 {
+    font-size: 22px;
+    color: #29303B;
+}
+
+.review-content .rev-card {
+    background: #F7F8FA;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.review-content .rev-card .rev-profile {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+}
+
+.review .rev-pic {
+    background: url(/img/11968350_727b.jpg);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.review .rev-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.review .rev-info h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.review .rev-info h2 span {
+    font-weight: normal;
+}
+
+.review .rev-info .stars {
+    display: flex;
+}
+
+.review .rev-info .stars>div {
+    position: relative;
+    padding-right: 16px;
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.review .rev-info .stars>div>a {
+    position: absolute;
+}
+
+.review .rev-info .stars>div>a:nth-child(1) {
+    color: white;
+}
+
+.review .rev-info .stars>div>a:nth-child(2) {
+    color: #F4C150;
+}
+
+.review .rev-info a {
+    font-size: 14px;
+}
+
+.review .message {
+    font-size: 14px;
+    line-height: 22px;
+
+    height: 90px;
+    overflow: hidden;
+}
+
+.review .seem {
+    background: linear-gradient(0deg, #F7F8FA 20%, #F7F8FAd2, #ffffff00, #ffffff00);
+}
+
+.feedback {
+    font-size: 13px;
+    color: #686F7A;
+}
+
+.feedback a {
+    margin-right: 10px;
+}
+
+.feedback .btn {
+    border: 1px solid #686F7A;
+    border-radius: 3px;
+    padding: 2px 10px ;
+}

@@ -1,0 +1,45 @@
+.desc {
+    display: flex;
+    justify-content: center;
+
+}
+
+.desc-box {
+    width: 1080px;
+}
+
+.desc-box h2 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #29303B;
+}
+
+.desc-box h3 {
+    font-size: 16px;
+    color: #29303B;
+    font-style: italic;
+}
+
+.desc pre {
+    margin: 0;
+    padding: 0;
+    transform: translate(-4.1%);
+    font-size: 14px;
+    height: 150px;
+    overflow: hidden;
+    font-style: italic;
+}
+
+.seem{
+    color: #157B91;
+    background: linear-gradient(0deg, #ffffff 20%, #ffffffd2, #ffffff00, #ffffff00);
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    transform: translateY(-37px);
+
+    cursor: pointer;
+
+}
