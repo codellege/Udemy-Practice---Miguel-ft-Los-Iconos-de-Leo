@@ -13,10 +13,7 @@ por lo que para utilizarlos es importando el CSS de la fuente el cual
 también incluye clases de apoyo para definir los iconos
 
 Por ejemplo:
-```html
 <span class="udi udi-explore"></span>
-```
-```
 ## Creditos
 
 * Leo (assets)
