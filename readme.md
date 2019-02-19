@@ -19,3 +19,13 @@ Miguel
 
 ## Supervisa
 JC
+
+
+## Falta
+
+- [ ] Favicon
+- [ ] Seccion de otros productos
+- [ ] Seccion compra en Bundle 
+- [ ] Seccion about the instructor 
+- [ ] Seccion review table
+- [ ] Seccion comentarios
