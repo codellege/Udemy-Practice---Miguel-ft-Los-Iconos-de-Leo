@@ -2,7 +2,7 @@
 
 # Udemy Practice (Miguel ft los iconos de Leo)
 
-Una recreacion con poniendo mis ojos frente al monitor para no perder detalle
+Una recreacion hecha poniendo mis ojos frente al monitor para no perder detalle
 
 ## Udemy Icons 
 ### Proveidos por Leo
